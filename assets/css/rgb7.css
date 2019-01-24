@@ -224,8 +224,8 @@ footer .copyright-link {
 }
 footer
  {
-	background: linear-gradient(#9ed13b, #349e00)
-}
+	/*background: linear-gradient(#9ed13b, #349e00)
+}*/
 footer a {
 	color:white;
 }
