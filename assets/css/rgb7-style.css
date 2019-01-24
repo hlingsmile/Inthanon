@@ -1,12 +1,12 @@
 /*
 
-d8888b.  d888b  d8888b. d88888D 
-88  `8D 88' Y8b 88  `8D VP  d8' 
-88oobY' 88	  88oooY'	d8'  
-88`8b   88  ooo 88~~~b.   d8'   
-88 `88. 88. ~8~ 88   8D  d8'	
-88   YD  Y888P  Y8888P' d8'	 
-							 
+d8888b.  d888b  d8888b. d88888D
+88  `8D 88' Y8b 88  `8D VP  d8'
+88oobY' 88	  88oooY'	d8'
+88`8b   88  ooo 88~~~b.   d8'
+88 `88. 88. ~8~ 88   8D  d8'
+88   YD  Y888P  Y8888P' d8'
+
 * Copyright 2016, by RGB7
 Version 2.4
 */
@@ -76,12 +76,12 @@ Version 2.4
 .breadcrumb a:after {
 	content: '';
 	position: absolute;
-	top: 0; 
+	top: 0;
 	right: -18px; /*half of square's length*/
 	/*same dimension as the line-height of .breadcrumb a */
-	width: 36px; 
+	width: 36px;
 	height: 36px;
-	/*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	/*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's:
 	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
 	if diagonal required = 1; length = 1/1.414 = 0.707*/
 	transform: scale(0.707) rotate(45deg);
@@ -89,11 +89,11 @@ Version 2.4
 	z-index: 1;
 	/*background same as links but the gradient will be rotated to compensate with the transform applied*/
 	background: linear-gradient(135deg, #ffffff 0%, #fff 99.6%, #ffffff 100%);
-	
+
 	/*stylish arrow design using box shadow*/
 	box-shadow: 2px -2px rgba(255, 255, 255, 0.9), 3px -3px 0 2px rgba(255, 255, 255, 0.9);
 	/*
-		5px - for rounded arrows and 
+		5px - for rounded arrows and
 		50px - to prevent hover glitches on the border created using shadows*/
 	border-radius: 0 5px 0 50px;
 	-moz-box-shadow: 2px -2px rgba(255, 255, 255, 0.4), 3px -3px 0 2px rgba(255, 255, 255, 0.1);
@@ -103,7 +103,7 @@ Version 2.4
 .breadcrumb a:last-child:after {
 	content: none;
 	background-color: silver;
-	
+
 }
 /*we will use the :before element to show numbers*/
 
@@ -124,7 +124,7 @@ Version 2.4
 	background: white;
 	box-shadow: 0 0 0 1px #ccc;
 }
-.flat a:hover, .flat a.active, 
+.flat a:hover, .flat a.active,
 .flat a:hover:after, .flat a.active:after{
 	background: #ff0070;
 }
@@ -195,7 +195,7 @@ a:visited {
 /* @end */
 
 /* @group Font Style Group */
- 
+
 .text-white {
 	color: white!important;
 }
@@ -397,7 +397,7 @@ ul.landing-icon-list li {
 	font-weight: bold;
 }
 .card-item-list .status-pin{
-	
+
 }
 .wrapper {
   margin: 0 auto;
@@ -448,7 +448,7 @@ ul.landing-icon-list li {
 
 .ribbon-pink:before, .ribbon-pink:after {
   content: "";
-  border-top:   3px solid #6e8900;   
+  border-top:   3px solid #6e8900;
   border-left:  3px solid transparent;
   border-right: 3px solid transparent;
   position:absolute;
@@ -648,7 +648,7 @@ ul.landing-icon-list li.active {
     position: absolute; top: 0; bottom: 0;
     right: 33px;
     border: 2px solid #FFFFFF; border-radius: 20px;
-    transition: all 0.3s ease-in 0s; 
+    transition: all 0.3s ease-in 0s;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label {
     background-color: #FF4597;
@@ -657,7 +657,7 @@ ul.landing-icon-list li.active {
    border-color: #FF4597;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-    right: 0px; 
+    right: 0px;
 }
 .detail-info ul li .tag-zone ul{
 	float: left;
@@ -670,7 +670,7 @@ ul.landing-icon-list li.active {
 }
 
 .detail-info .tag-zone a {
-	
+
 }
 /* @end */
 
@@ -891,8 +891,8 @@ ul.landing-icon-list li.active {
  	margin: 0;
  	padding: 0;
  }
- 
- 
+
+
  input:focus,textarea:focus,select:focus{
    border:1px solid #fafafa;
    -webkit-box-shadow:0 0 6px #007eff;
@@ -900,12 +900,12 @@ ul.landing-icon-list li.active {
    box-shadow:0 0 5px #007eff;
    outline: none;
  }
- 
+
  sup{
- 
+
  	font-size: 40px;
  }
- 
+
 .whole ul{
  	list-style: none;
  	font-size: 15px;
@@ -913,11 +913,11 @@ ul.landing-icon-list li.active {
  	color: white;
  	padding: 0px;
  	margin: 0px;
- 
- 
+
+
  }
- 
- 
+
+
  .whole li{
  border-bottom: 1px solid silver;
  padding: 0px;
@@ -927,23 +927,23 @@ ul.landing-icon-list li.active {
  line-height: 52px;
  }
 
- 
+
  .whole{
  	display: inline-block;
-   
+
  }
- 
- 
- 
+
+
+
  .type{
  	width: auto;
  	border-radius: 5px 5px 0px 0px;
  	background-color: #47b4b8;
  	height: 62px;
  	border-bottom: 3px solid silver;
- 
+
  }
- 
+
  .type p{
 
      font-weight: 800;
@@ -954,7 +954,7 @@ ul.landing-icon-list li.active {
  	padding-top: 10px;
 
  }
- 
+
  .plan{
  	width: auto;
  	background-color: #3b3b3a;
@@ -964,8 +964,8 @@ ul.landing-icon-list li.active {
      font-size: 90px;
      color: white;
      text-align: center;
- 
- 
+
+
  }
  .plan p{
  	color: silver;
@@ -974,70 +974,70 @@ ul.landing-icon-list li.active {
  	background-color: #1abc9c;
  	border-bottom: 3px solid #18937b;
  }
- 
+
  .ultimate{
  	background-color: #e14249;
  	border-bottom: 3px solid #b7161d;
  }
- 
- 
- 
- 
- 
+
+
+
+
+
  .header{
  	border-bottom: 1px solid silver;
  	padding-bottom: 39px;
- 
- 
+
+
  }
- 
+
  .header span{
  	font-size: 32px;
- 
- 	
+
+
  }
- 
+
  .month{
  	font-size: 14px;
  	color: #575757;
  	padding: 0px;
  	margin: -10px;
  }
- 
+
  .price{
  	height:80px;
  }
- 
+
  .cart{
    color:white;
    position: relative;
  	top: -30px;
  }
- 
- 
- 
+
+
+
  .content{
  }
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
  .nodisplay{
    opacity: 0.1;
  }
- 
+
  .selected{
    background-color:#1F1B36;
    margin:0px;
    padding:0px;
  }
- 
+
 
 /* @end */
 
@@ -1111,7 +1111,7 @@ ul.landing-icon-list li.active {
 	color: #1eb4b7!important;
 }
 .section-aboutus-banner{
-	
+
 }
 
 .section-aboutus-p3 h3{
@@ -1476,7 +1476,7 @@ a.ghost-btn:visited{
  	color: red;
  }
  .fill-red {
-	background-color: red; 
+	background-color: red;
 }
 .fill-yellow {
 	background: yellow;
@@ -1616,7 +1616,7 @@ Misc tools
 
 
  @media (max-width: 500px) {
- 
+
 	.search-box {
 		height: 130px;
 	}
@@ -1755,11 +1755,11 @@ Misc tools
 	.nav-sub-up ul li a {
 		color: white;
 	}
-	
+
 }
 @media (min-width: 768px) and(max-width: 991px) {
 	.search-box {
-		height: 300px; 
+		height: 300px;
 	}
 
 	.item-content {
@@ -1775,7 +1775,7 @@ Misc tools
 		font-size: 18px;
 	}
 
-	
+
 }
 @media (min-width: 1200px) {
 
@@ -1784,7 +1784,7 @@ Misc tools
 /* @group UI/COLR CRUbn Group */
 
 /*---Color mode food-----*/
-.flat.type-food a:hover, .flat.type-food a.active, 
+.flat.type-food a:hover, .flat.type-food a.active,
 .flat.type-food a:hover:after, .flat.type-food a.active:after{
 	background: #9A8FBA;
 }
@@ -1801,7 +1801,7 @@ background: #8f7fbd;
 }
 
 /*---Color mode goverment-----*/
-.flat.type-gove a:hover, .flat.type-gove a.active, 
+.flat.type-gove a:hover, .flat.type-gove a.active,
 .flat.type-gov a:hover:after, .flat.type-gove a.active:after{
 	background: #787876;
 }
@@ -1818,7 +1818,7 @@ background: #4e4e4e;
 }
 
 /*---Color mode shop-----*/
-.flat.type-shop a:hover, .flat.type-shop a.active, 
+.flat.type-shop a:hover, .flat.type-shop a.active,
 .flat.type-shop a:hover:after, .flat.type-shop a.active:after{
 	background: #E97F57;
 }
@@ -1836,7 +1836,7 @@ background: #e96838;
 
 
 /*---Color mode pers-----*/
-.flat.type-pers a:hover, .flat.type-pers a.active, 
+.flat.type-pers a:hover, .flat.type-pers a.active,
 .flat.type-pers a:hover:after, .flat.type-pers a.active:after{
 	background: #FA6E6D;
 }
@@ -1852,7 +1852,7 @@ background: #f94b4a;
 	background: #f88786
 }
 /*---Color mode spor-----*/
-.flat.type-spor a:hover, .flat.type-spor a.active, 
+.flat.type-spor a:hover, .flat.type-spor a.active,
 .flat.type-spor a:hover:after, .flat.type-spor a.active:after{
 	background: #FB8F23;
 }
@@ -1869,7 +1869,7 @@ background: #fd8106;
 }
 
 /*---Color mode heal-----*/
-.flat.type-heal a:hover, .flat.type-heal a.active, 
+.flat.type-heal a:hover, .flat.type-heal a.active,
 .flat.type-heal a:hover:after, .flat.type-heal a.active:after{
 	background: #00AE89;
 }
@@ -1886,7 +1886,7 @@ background: #009172;
 }
 
 /*---Color mode room-----*/
-.flat.type-room a:hover, .flat.type-room a.active, 
+.flat.type-room a:hover, .flat.type-room a.active,
 .flat.type-room a:hover:after, .flat.type-room a.active:after{
 	background: #B378A6;
 }
@@ -1903,7 +1903,7 @@ background: #ae649d;
 }
 
 /*---Color mode auto-----*/
-.flat.type-auto a:hover, .flat.type-auto a.active, 
+.flat.type-auto a:hover, .flat.type-auto a.active,
 .flat.type-auto a:hover:after, .flat.type-auto a.active:after{
 	background: #CE4152;
 }
@@ -1920,7 +1920,7 @@ background: #c83042;
 }
 
 /*---Color mode busi-----*/
-.flat.type-busi a:hover, .flat.type-busi a.active, 
+.flat.type-busi a:hover, .flat.type-busi a.active,
 .flat.type-busi a:hover:after, .flat.type-busi a.active:after{
 	background: #4EA6B6;
 }
@@ -1937,7 +1937,7 @@ background: #4097a7;
 }
 
 /*---Color mode serv-----*/
-.flat.type-serv a:hover, .flat.type-serv a.active, 
+.flat.type-serv a:hover, .flat.type-serv a.active,
 .flat.type-serv a:hover:after, .flat.type-serv a.active:after{
 	background: #3353A6;
 }
@@ -1954,7 +1954,7 @@ background: #2d4c9b;
 }
 
 /*---Color mode bank-----*/
-.flat.type-bank a:hover, .flat.type-bank a.active, 
+.flat.type-bank a:hover, .flat.type-bank a.active,
 .flat.type-bank a:hover:after, .flat.type-bank a.active:after{
 	background: #E46DA5;
 }
@@ -1971,7 +1971,7 @@ background: #e3599a;
 }
 
 /*---Color mode reli-----*/
-.flat.type-reli a:hover, .flat.type-reli a.active, 
+.flat.type-reli a:hover, .flat.type-reli a.active,
 .flat.type-reli a:hover:after, .flat.type-reli a.active:after{
 	background: #FFBE49;
 }
@@ -1988,7 +1988,7 @@ background: #feb93c;
 }
 
 /*---Color mode educ-----*/
-.flat.type-educ a:hover, .flat.type-educ a.active, 
+.flat.type-educ a:hover, .flat.type-educ a.active,
 .flat.type-educ a:hover:after, .flat.type-educ a.active:after{
 	background: #ADCF44;
 }
@@ -2005,7 +2005,7 @@ background: #a8cd35;
 }
 
 /*---Color mode tran-----*/
-.flat.type-tran a:hover, .flat.type-tran a.active, 
+.flat.type-tran a:hover, .flat.type-tran a.active,
 .flat.type-tran a:hover:after, .flat.type-tran a.active:after{
 	background: #604041;
 }
@@ -2021,7 +2021,7 @@ background: #523536;
 	background: #6c4c4d
 }
 /*---Color mode trav-----*/
-.flat.type-trav a:hover, .flat.type-trav a.active, 
+.flat.type-trav a:hover, .flat.type-trav a.active,
 .flat.type-trav a:hover:after, .flat.type-trav a.active:after{
 	background: #b14565;
 }

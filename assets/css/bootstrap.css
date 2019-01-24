@@ -4304,7 +4304,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #ff4174 !important; }
+  background-color: #349e00 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4320,7 +4320,7 @@ button.bg-secondary:focus {
   background-color: #545b62 !important; }
 
 .bg-success {
-  background-color: #28a745 !important; }
+  background: linear-gradient(#9ed13b, #349e00)!important; }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,

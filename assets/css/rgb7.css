@@ -1,12 +1,12 @@
 /*
 
-d8888b.  d888b  d8888b. d88888D 
-88  `8D 88' Y8b 88  `8D VP  d8' 
-88oobY' 88	  88oooY'	d8'  
-88`8b   88  ooo 88~~~b.   d8'   
-88 `88. 88. ~8~ 88   8D  d8'	
-88   YD  Y888P  Y8888P' d8'	 
-							 
+d8888b.  d888b  d8888b. d88888D
+88  `8D 88' Y8b 88  `8D VP  d8'
+88oobY' 88	  88oooY'	d8'
+88`8b   88  ooo 88~~~b.   d8'
+88 `88. 88. ~8~ 88   8D  d8'
+88   YD  Y888P  Y8888P' d8'
+
 * Copyright 2016-2018, by RGB7
 Version 4.0
 NOVEMBER RAIN 2018
@@ -14,18 +14,17 @@ NOVEMBER RAIN 2018
 
 .bg-nav-sub{
 	/*background: #f5f5f5!important;*/
-	background: rgb(255,65,116);
-	background: linear-gradient(90deg, rgba(255,65,116,0.3) 50%, rgba(75,185,186,0.3) 100%);
+	background: linear-gradient(#9ed13b, #349e00);
 }
 body{
-    
+
 	/*background: rgb(255,65,116);
 	background: linear-gradient(87deg, rgba(255,65,116,0.3) 22%, rgba(75,185,186,0.3) 100%);*/
 	/*background: rgb(255,65,116);
 	background: linear-gradient(185deg, rgba(255,65,116,0.4) 22%, rgba(255,255,255,0.4) 100%);*/
 
 }
-h1 { 
+h1 {
 	color: #1e1e1e;
  }
 h2 {
@@ -33,7 +32,7 @@ h2 {
 }
 .content-main p{
 	color:404040!important;
-} 
+}
 .text-dark-blue{
  color:#4d7389!important;
 }
@@ -223,9 +222,9 @@ footer .copyright-link {
 
 	font-size: 0.8em;
 }
-footer 
+footer
  {
-	background-color: #4bb4ba;
+	background: linear-gradient(#9ed13b, #349e00)
 }
 footer a {
 	color:white;
@@ -243,7 +242,7 @@ footer a {
 
 /* @group BG Colors Group */
 /*---Color mode food-----*/
-.flat.type-food a:hover, .flat.type-food a.active, 
+.flat.type-food a:hover, .flat.type-food a.active,
 .flat.type-food a:hover:after, .flat.type-food a.active:after{
 	background: #9A8FBA;
 }
@@ -258,7 +257,7 @@ background: #8f7fbd;
 	/*background: #cdc7df;*/
 }
 
-.flat.type-gove a:hover, .flat.type-gove a.active, 
+.flat.type-gove a:hover, .flat.type-gove a.active,
 .flat.type-gov a:hover:after, .flat.type-gove a.active:after{
 	background: #787876;
 }
@@ -275,7 +274,7 @@ background: #4e4e4e;
 }
 
 /*---Color mode shop-----*/
-.flat.type-shop a:hover, .flat.type-shop a.active, 
+.flat.type-shop a:hover, .flat.type-shop a.active,
 .flat.type-shop a:hover:after, .flat.type-shop a.active:after{
 	background: #E97F57;
 }
@@ -293,7 +292,7 @@ background: #e96838;
 
 
 /*---Color mode pers-----*/
-.flat.type-pers a:hover, .flat.type-pers a.active, 
+.flat.type-pers a:hover, .flat.type-pers a.active,
 .flat.type-pers a:hover:after, .flat.type-pers a.active:after{
 	background: #FA6E6D;
 }
@@ -309,7 +308,7 @@ background: #f94b4a;
 	background: #f88786
 }
 /*---Color mode spor-----*/
-.flat.type-spor a:hover, .flat.type-spor a.active, 
+.flat.type-spor a:hover, .flat.type-spor a.active,
 .flat.type-spor a:hover:after, .flat.type-spor a.active:after{
 	background: #FB8F23;
 }
@@ -326,7 +325,7 @@ background: #fd8106;
 }
 
 /*---Color mode heal-----*/
-.flat.type-heal a:hover, .flat.type-heal a.active, 
+.flat.type-heal a:hover, .flat.type-heal a.active,
 .flat.type-heal a:hover:after, .flat.type-heal a.active:after{
 	background: #00AE89;
 }
@@ -343,7 +342,7 @@ background: #009172;
 }
 
 /*---Color mode room-----*/
-.flat.type-room a:hover, .flat.type-room a.active, 
+.flat.type-room a:hover, .flat.type-room a.active,
 .flat.type-room a:hover:after, .flat.type-room a.active:after{
 	background: #B378A6;
 }
@@ -360,7 +359,7 @@ background: #ae649d;
 }
 
 /*---Color mode auto-----*/
-.flat.type-auto a:hover, .flat.type-auto a.active, 
+.flat.type-auto a:hover, .flat.type-auto a.active,
 .flat.type-auto a:hover:after, .flat.type-auto a.active:after{
 	background: #CE4152;
 }
@@ -377,7 +376,7 @@ background: #c83042;
 }
 
 /*---Color mode busi-----*/
-.flat.type-busi a:hover, .flat.type-busi a.active, 
+.flat.type-busi a:hover, .flat.type-busi a.active,
 .flat.type-busi a:hover:after, .flat.type-busi a.active:after{
 	background: #4EA6B6;
 }
@@ -394,7 +393,7 @@ background: #4097a7;
 }
 
 /*---Color mode serv-----*/
-.flat.type-serv a:hover, .flat.type-serv a.active, 
+.flat.type-serv a:hover, .flat.type-serv a.active,
 .flat.type-serv a:hover:after, .flat.type-serv a.active:after{
 	background: #3353A6;
 }
@@ -411,7 +410,7 @@ background: #2d4c9b;
 }
 
 /*---Color mode bank-----*/
-.flat.type-bank a:hover, .flat.type-bank a.active, 
+.flat.type-bank a:hover, .flat.type-bank a.active,
 .flat.type-bank a:hover:after, .flat.type-bank a.active:after{
 	background: #E46DA5;
 }
@@ -428,7 +427,7 @@ background: #e3599a;
 }
 
 /*---Color mode reli-----*/
-.flat.type-reli a:hover, .flat.type-reli a.active, 
+.flat.type-reli a:hover, .flat.type-reli a.active,
 .flat.type-reli a:hover:after, .flat.type-reli a.active:after{
 	background: #FFBE49;
 }
@@ -445,7 +444,7 @@ background: #feb93c;
 }
 
 /*---Color mode educ-----*/
-.flat.type-educ a:hover, .flat.type-educ a.active, 
+.flat.type-educ a:hover, .flat.type-educ a.active,
 .flat.type-educ a:hover:after, .flat.type-educ a.active:after{
 	background: #ADCF44;
 }
@@ -462,7 +461,7 @@ background: #a8cd35;
 }
 
 /*---Color mode tran-----*/
-.flat.type-tran a:hover, .flat.type-tran a.active, 
+.flat.type-tran a:hover, .flat.type-tran a.active,
 .flat.type-tran a:hover:after, .flat.type-tran a.active:after{
 	background: #604041;
 }
@@ -478,7 +477,7 @@ background: #523536;
 	background: #6c4c4d
 }
 /*---Color mode trav-----*/
-.flat.type-trav a:hover, .flat.type-trav a.active, 
+.flat.type-trav a:hover, .flat.type-trav a.active,
 .flat.type-trav a:hover:after, .flat.type-trav a.active:after{
 	background: #b14565;
 }
