@@ -11,14 +11,7 @@ d8888b.  d888b  d8888b. d88888D
 Version 4.0
 NOVEMBER RAIN 2018
 */
-.menu{
-	background-image: url("assets/img-landpage2/view.png");
-}
 
-.bg-nav-sub{
-	/*background: #f5f5f5!important;*/
-	background: linear-gradient(#9ed13b, #349e00);
-}
 body{
 
 	/*background: rgb(255,65,116);
