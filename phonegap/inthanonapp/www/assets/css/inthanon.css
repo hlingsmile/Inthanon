@@ -5,7 +5,8 @@ body.menu{
 
 body.menu-contact{
 	background-image: url("../img-landingpage1/bg-contact.jpg");
-
+	background-repeat: no-repeat;
+	background-color: #000000;
 }
 
 .bg-nav-sub{
@@ -93,15 +94,4 @@ body.background{
 	background: -ms-linear-gradient(left, rgba(194,0,0,1) 0%, rgba(194,0,0,1) 44%, rgba(194,0,0,1) 100%);
 	background: linear-gradient(to right, rgba(194,0,0,1) 0%, rgba(194,0,0,1) 44%, rgba(194,0,0,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c20000', endColorstr='#c20000', GradientType=1 );
-}
-
-.bg-dark{
-	background: rgba(0,0,0,1);
-	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
-	background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
 }
