@@ -4,8 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- META -->
-		<title>Intanon Project | index</title>
-
+		<title>Intanon Project </title>
 		<!-- FAVICON -->
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-icon-60x60.png">
@@ -28,7 +27,6 @@
 		<link rel="alternate" hreflang="th" href="" />
 		<link rel="alternate" hreflang="en" href="en/" />
 		<!-- FontAwesome -->
-
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
 		<!-- Custom styles for this template -->
@@ -37,7 +35,6 @@
 		<!--  ======= BEGIN SCRIPT THIS PAGE ONLY ======== -->
 		<link rel="stylesheet" href="assets/css/fontthai.css">
 		<link rel="stylesheet" href="assets/css/animations.css" type="text/css">
-
 		<link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
 		<link href="assets/css/owl-carousel/owl.theme.css" rel="stylesheet">
 		<link href="assets/css/aboutus.css" rel="stylesheet">
@@ -47,23 +44,20 @@
 	<body class="menu">
 		<!-- ##### BEGIN NAVBAR ##### -->
 		<div class="container ">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-			<div class="p-0  mr-2 text-center">
-				<img src="assets/img-landingpage1/logo-landingpage.png" alt="logo" width="200px"  class="INTHANON LOGO">
-		<br>
-				<a href="menu.html" class="btn btn-outline-white btn-lg font-special-style border-white text-white ">เข้าสู่ระบบ</a>
-		</div>
-
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="p-0  mr-2 text-center animatedParent" data-sequence='500'>
+				<img src="assets/img-landingpage1/logo-landingpage.png" alt="logo" width="200px"  class=" animated fadeIn" data-id='1'>
+				<br><br>
+				<a href="menu.html" class="btn btn-outline-white btn-lg font-special-style border-white text-white  animated fadeIn" data-id='2'>เข้าสู่ระบบ</a>
+			</div>
 		</div>
 		<!-- ##### END NAVBAR ##### -->
 		<!-- ##### BEGIN CONTENT ##### -->
-
-
 		<!-- ==============END FOOTER ================= -->
 		<!-- Bootstrap core JavaScript
 		================================================== -->
@@ -76,48 +70,8 @@
 		<!--  ======= BEGIN SCRIPT THIS PAGE ONLY ======== -->
 		<script src="assets/js/jquery-1.11.1.min.js"></script>
 		<!-- BEGIN EXTEND JAVASCRIPT-->
-		<!--Parallax Scroll-->
-		<script type="text/javascript" src="assets/js/jquery.scrollTo.js"></script>
-		<script type="text/javascript">
-			jQuery(function( $ ){
-					//borrowed from jQuery easing plugin
-					//http://gsgd.co.uk/sandbox/jquery.easing.php
-					$.easing.elasout = function(x, t, b, c, d) {
-						var s=1.70158;var p=0;var a=c;
-						if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
-						if (a < Math.abs(c)) { a=c; var s=p/4; }
-						else var s = p/(2*Math.PI) * Math.asin (c/a);
-						return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
-					};
-				// Reset the screen to (0,0)
-				$.scrollTo( 0 );
-				// TOC, shows how to scroll the whole window
-				$('#toc a').click(function(){//$.scrollTo works EXACTLY the same way, but scrolls the whole screen
-					$.scrollTo( this.hash, 1000);
-					return false;
-				});
-			});
-		</script>
-		<!-- owl.carousel -->
-		<script src="assets/js/owl.carousel.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$("#owl-demo").owlCarousel({
-				navigation : false,
-				slideSpeed : 300,
-				paginationSpeed : 400,
-				singleItem : true,
-				autoPlay : true,
-				stopOnHover :true
-				// "singleItem:true" is a shortcut for:
-				// items : 1,
-				// itemsDesktop : false,
-				// itemsDesktopSmall : false,
-				// itemsTablet: false,
-				// itemsMobile : false
-				});
-				});
-		</script>
+		
+		
 		<!-- Animate -->
 		<script src='assets/js/css3-animate-it.js'></script>
 		<script>
