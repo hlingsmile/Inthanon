@@ -68,7 +68,7 @@
 			<div class="navbar-collapse offcanvas-collapse  bg-success " id="navbarsExampleDefault">
 				<!-- BEGIN MENU LIST POPUP ICON -->
 				<div class="container ">
-					<div class="row animatedParent mt-5">
+					<div class="row animatedParent mt-5" >
 						<div class="col-4 col-sm-6 col-md-6 text-center ab-icon-zone animated bounceIn">
 							<a href="waterfall.html"><img src="assets/icon-landpage-2/icon-none_0000_waterwall.png" alt="น้ำตก" width="70px"  class="img-fluid bg-  rounded"/><br><span class="text-white font-special-style">น้ำตก</span></a>
 						</div>
@@ -103,53 +103,39 @@
 			<div class="container my-2 mt-3 ">
 
 				<!-- BEGIN PHOTOGALLEY -->
-				<div class="row">
-					<div class="col-12 col-sm-6">
+				<div class="row animatedParent" data-sequence='200'>
+					<div class="col-12 col-sm-6 animated fadeInLeftShort" data-id='1'>
 						<a href="waterfall-maeklang.html"><img src="assets/waterfall/maeklang.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
-					<div class="col-6 col-sm-6 col-md-6 ">
+					<div class="col-6 col-sm-6 col-md-6 animated fadeInLeftShort " data-id='2'>
 						<a href="waterfall-sirithan.html"><img src="assets/waterfall/sirithan.jpg" class="img-fluid mb-2 mr-2"></a>
 					</div>
-					<div class="col-6 col-sm-6 col-md-6 ">
+					<div class="col-6 col-sm-6 col-md-6  animated fadeInLeftShort " data-id='3'>
 						<a href="waterfall-huaisai-lueang.html"><img src="assets/waterfall/huaisailueang.jpg" class="img-fluid mb-2 mr-2"></a>
 					</div>
-					<div class="col-12 col-sm-6">
+					<div class="col-12 col-sm-6 animated fadeInLeftShort " data-id='4'>
 						<a href="waterfall-maeya.html" ><img src="assets/waterfall/maeya.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
-					<div class="col-6 col-sm-6 col-md-6 ">
+					<div class="col-6 col-sm-6 col-md-6 animated fadeInLeftShort " data-id='5'>
 						<a href="waterfall-phadoksiang.html" ><img src="assets/waterfall/phadoksiao.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
-					<div class="col-6 col-sm-6 col-md-6 ">
+					<div class="col-6 col-sm-6 col-md-6 animated fadeInLeftShort " data-id='6'>
 						<a href="waterfall-wangkwai.html"><img src="assets/waterfall/wangkwai.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
-					<div class="col-12 col-sm-6">
+					<div class="col-12 col-sm-6 animated fadeInLeftShort " data-id='7'>
 						<a href="waterfall-siriphum.html"><img src="assets/waterfall/siriphum.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
-					<div class="col-6 col-sm-6 col-md-6 ">
+					<div class="col-6 col-sm-6 col-md-6 animated fadeInLeftShort " data-id='8'>
 						<a href="waterfall-wachiratarn.html"><img src="assets/waterfall/wachiratarn.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
-					<div class="col-6 col-sm-6 col-md-6 ">
+					<div class="col-6 col-sm-6 col-md-6  animated fadeInLeftShort " data-id='9'>
 						<a href="waterfall-maepen.html" ><img src="assets/waterfall/maepan.jpg" class="img-fluid  mb-2 mr-2"></a>
 					</div>
 
 				</div>
 				<!-- END PHOTOGALLEY -->
 
-				<!-- ===BEGIN PHOTO GALLERY==== -->
-				<!-- <div class="row">
-						<div class="col-6">
-								<img src="assets/img-mae klang/big-kiang-05.jpg" class="img-fluid border border-white rounded">
-						</div>
-						<div class="col-6 pl-0">
-								<a href="assets/img-mae klang/big-kiang-06.jpg" class="image-link"><img src="assets/img-mae klang/big-kiang-06.jpg" class="img-fluid mb-2 border border-white rounded"></a>
-								<img src="assets/img-mae klang/big-kiang-07.jpg" class="img-fluid mb-2 border border-white rounded">
-								<img src="assets/img-mae klang/big-kiang-08.jpg" class="img-fluid mb-2 border border-white rounded">
-						</div>
-				</div> -->
-				<!-- ===END PHOTO GALLERY==== -->
-				<!-- ===BEGIN MAP==== -->
-
-				<!-- ===END MAP==== -->
+			
 			</div>
 			<br>
 
@@ -165,49 +151,9 @@
 	<script src="assets/js/offcanvas.js"></script>
 	<!--  ======= BEGIN SCRIPT THIS PAGE ONLY ======== -->
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	<!-- BEGIN EXTEND JAVASCRIPT-->
-	<!--Parallax Scroll-->
-	<!-- <script type="text/javascript" src="assets/js/jquery.scrollTo.js"></script>
-	<script type="text/javascript">
-		jQuery(function( $ ){
-				//borrowed from jQuery easing plugin
-				//http://gsgd.co.uk/sandbox/jquery.easing.php
-				$.easing.elasout = function(x, t, b, c, d) {
-					var s=1.70158;var p=0;var a=c;
-					if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
-					if (a < Math.abs(c)) { a=c; var s=p/4; }
-					else var s = p/(2*Math.PI) * Math.asin (c/a);
-					return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
-				};
-			// Reset the screen to (0,0)
-			$.scrollTo( 0 );
-			// TOC, shows how to scroll the whole window
-			$('#toc a').click(function(){//$.scrollTo works EXACTLY the same way, but scrolls the whole screen
-				$.scrollTo( this.hash, 1000);
-				return false;
-			});
-		});
-	</script> -->
-	<!-- owl.carousel -->
-	<script src="assets/js/owl.carousel.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$("#owl-demo").owlCarousel({
-			navigation : false,
-			slideSpeed : 300,
-			paginationSpeed : 400,
-			singleItem : true,
-			autoPlay : true,
-			stopOnHover :true
-			// "singleItem:true" is a shortcut for:
-			// items : 1,
-			// itemsDesktop : false,
-			// itemsDesktopSmall : false,
-			// itemsTablet: false,
-			// itemsMobile : false
-			});
-			});
-	</script>
+	
+
+	
 	<!-- Animate -->
 	<script src='assets/js/css3-animate-it.js'></script>
 	<script>
@@ -222,15 +168,7 @@
 				});
 			});
 	</script>
-	<!-- Magnific Popup core JS file -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-	$('.image-link').magnificPopup({
-	type: 'image'
-	});
-	});
-	</script>
+	
 	<!--  ======= END SCRIPT THIS PAGE ONLY ======== -->
 </body>
 </html>
