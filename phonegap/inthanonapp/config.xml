@@ -1,8 +1,8 @@
 <?xml version='1.2' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.3.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Inthanon</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+      The Development Of Mobile Application Tourism Doi Inthanon National Park
     </description>
     <author email="hlingsmile@gmail.com" href="http://hlingsmile@gmail.com">
         Piyaporn Denudomwattana
